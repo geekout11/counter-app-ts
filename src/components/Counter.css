@@ -1,0 +1,25 @@
+.counter-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.counter-btn {
+  min-width: 100px;
+  width: auto;
+  margin: 8px;
+  padding: 2px;
+  text-align: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.counter-btn:hover {
+  background-color: rgb(73, 136, 252);
+  color: white;
+}
+
+.counter-display {
+  text-align: center;
+}
