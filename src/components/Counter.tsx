@@ -8,7 +8,6 @@ const Counter = (): JSX.Element => {
   const [count, setCount] = useState<number>(0)
 
   const increment = (): void => {
-    // console.log('btn')
     setCount(count + 1)
   }
 
